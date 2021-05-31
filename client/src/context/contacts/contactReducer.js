@@ -11,6 +11,7 @@ import {
     CONTACT_ERROR
 } from '../types';
 
+
 export default (state, action) => {
     switch (action.type) {
         case GET_CONTACTS:
